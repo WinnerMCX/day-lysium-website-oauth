@@ -9,19 +9,28 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@stackframe/stack": "^2.7.25",
+    "mysql2": "^3.13.0",
+    "next": "15.2.0",
+    "next-auth": "^5.0.0-beta.25",
+    "pg-hstore": "^2.3.4",
+    "pusher": "^5.2.0",
+    "pusher-js": "^8.4.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.2.0"
+    "sequelize": "^6.37.6",
+    "swr": "^2.3.3"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
+    "@types/ws": "^8.18.0",
     "eslint": "^9",
     "eslint-config-next": "15.2.0",
-    "@eslint/eslintrc": "^3"
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }

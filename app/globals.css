@@ -6,7 +6,7 @@
 }
 
 :root {
-  --background: #ffffff;
+  --background: #101211;
   --foreground: #171717;
 }
 
@@ -17,8 +17,66 @@
   }
 }
 
+html, body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.background {
+  background-color: #101211;
+}
+
+.background-gray {
+  background-color: rgba(35,37,36,0.88);
+}
+
+.background-yellow {
+  background-color: #ffc44d;
+}
+
+.panel-background {
+  background-color: #171918;
+}
+
+.button {
+  border-radius: .375rem;
+  text-align: center;
+  padding: .5625rem 1.25rem;
+  font-size: .9375rem;
+  font-style: sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.circle-button {
+  /* border-radius: fu; */
+  text-align: center;
+  padding: .5625rem 1.25rem;
+  font-size: .9375rem;
+  font-style: sans-serif;
+  font-weight: 500;
+  width: 10px;
+  height: 10px;
+}
+
+.button-yellow {
+  background-color: #ffc44d;
+  color: black;
+}
+
+.button-gray {
+  background-color: rgba(35,37,36,0.88);
+  color: white;  /* Added semicolon */
+}
+
+.yellow-text {
+  color: #ffc44d;
 }
